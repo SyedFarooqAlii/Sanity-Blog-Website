@@ -80,6 +80,8 @@ export default async function Page({ params: { slug } }: Props) {
         className="h-[200px] sm:h-[320px] w-full rounded-b-[8px] object-cover"
         src={urlFor(posts.image)}
         alt="Blog Cover"
+        height={200}
+        widhth={200}
       />
     </div>
 
@@ -101,8 +103,8 @@ export default async function Page({ params: { slug } }: Props) {
           className="h-[70px] border-[#ea1b48] border-[2px] sm:h-[80px] w-[70px] sm:w-[80px] rounded-full"
           src={urlFor(posts.author.image)}
           alt="Author"
-          height={45}
-          width={64}
+          height={70}
+          width={70}
         />
         <p className="text-[1rem] sm:text-[1.1rem] font-[600]">{posts.author.name}</p>
       </div>
