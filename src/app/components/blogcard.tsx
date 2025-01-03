@@ -18,8 +18,8 @@ const Webpage = ({ post }: { post: Post }) => {
               src={urlFor(post.image)}
               alt={post.title}
               className="w-full h-48 object-cover"
-              height={43}
-              width={34}
+              height={48}
+              
             />
           ) : (
             <div className="w-full h-48 bg-gray-200 flex items-center justify-center">
